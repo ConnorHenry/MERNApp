@@ -1,0 +1,21 @@
+{
+  "name": "mernapp",
+  "version": "1.0.0",
+  "description": "An app to follow along with Brads online video",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Connor Henry",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
